@@ -1,7 +1,7 @@
-package com.fortis.almt.filecomparator.java.comparator;
+package be.formatech.filecomparator.comparator;
 
-import com.fortis.almt.filecomparator.java.comparator.element.Line;
-import com.fortis.almt.filecomparator.java.utils.ComparatorUtility;
+import be.formatech.filecomparator.comparator.element.Line;
+import be.formatech.filecomparator.utils.ComparatorUtility;
 import org.apache.commons.collections15.bidimap.TreeBidiMap;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
@@ -420,7 +420,6 @@ public class FileComparator implements Comparator {
 				LOGGER.error("Problem while parsing file " + this.filename, e);
 				this.result.append("Problem while parsing file ");
 				this.result.append(this.filename);
-				return;
 			}
 		}
 

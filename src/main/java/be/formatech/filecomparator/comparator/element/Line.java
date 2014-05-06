@@ -1,7 +1,7 @@
-package com.fortis.almt.filecomparator.java.comparator.element;
+package be.formatech.filecomparator.comparator.element;
 
-import com.fortis.almt.filecomparator.java.utils.ComparatorUtility;
-import com.fortis.almt.filecomparator.java.utils.DateUtility;
+import be.formatech.filecomparator.utils.ComparatorUtility;
+import be.formatech.filecomparator.utils.DateUtility;
 import org.apache.commons.lang3.math.NumberUtils;
 import org.apache.commons.lang3.time.DateUtils;
 

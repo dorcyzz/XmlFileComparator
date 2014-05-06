@@ -1,4 +1,4 @@
-package com.fortis.almt.filecomparator.java.comparator;
+package be.formatech.filecomparator.comparator;
 
 import java.util.Set;
 

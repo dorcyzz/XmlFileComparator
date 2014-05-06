@@ -1,4 +1,4 @@
-package com.fortis.almt.filecomparator.java.utils;
+package be.formatech.filecomparator.utils;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;

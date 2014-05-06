@@ -1,4 +1,4 @@
-package com.fortis.almt.filecomparator.java.utils;
+package be.formatech.filecomparator.utils;
 
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -125,9 +125,9 @@ public final class CompressUtility {
 					"archiveFilePath and destination must not be null, nor empty");
 		}
 		try {
-			BufferedOutputStream bos = null;
-			final FileInputStream fis = new FileInputStream(archiveFilePath);
-			final BufferedInputStream bis = new BufferedInputStream(fis);
+            BufferedOutputStream bos;
+            final FileInputStream fis = new FileInputStream(archiveFilePath);
+            final BufferedInputStream bis = new BufferedInputStream(fis);
 			final ZipInputStream zis = new ZipInputStream(bis);
 			ZipEntry entry;
 
