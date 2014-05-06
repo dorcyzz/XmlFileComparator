@@ -28,9 +28,9 @@ public final class DateUtility {
 
 		dateFormats.add(new SimpleDateFormat("dd/MM/yyyy", belgium));
 		dateFormats.add(new SimpleDateFormat("yyyyMMdd", belgium));
-		dateFormats.add(new SimpleDateFormat("MMM dd yyyy hh:mma", belgium));
-		dateFormats.add(new SimpleDateFormat("EEE MMM dd HH:mm:ss z yyyy", belgium));
-	}
+        dateFormats.add(new SimpleDateFormat("dd-MM-yyyy", belgium));
+        dateFormats.add(new SimpleDateFormat("yyyy-MM-dd", belgium));
+    }
 
 	/**
 	 * DateUtility should not normally be instantiated.
